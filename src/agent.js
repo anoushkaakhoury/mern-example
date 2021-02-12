@@ -3,7 +3,7 @@ import _superagent from 'superagent';
 
 const superagent = superagentPromise(_superagent, global.Promise);
 
-const API_ROOT = 'https://15.206.81.25:3000/api';
+const API_ROOT = 'https://mern.squareops.xyz:3000/api';
 
 const encode = encodeURIComponent;
 const responseBody = res => res.body;
