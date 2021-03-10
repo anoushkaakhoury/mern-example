@@ -3,7 +3,7 @@ import _superagent from 'superagent';
 
 const superagent = superagentPromise(_superagent, global.Promise);
 
-const API_ROOT = 'https://api_root/api';
+const API_ROOT = 'http://mern-webap-da8tl0j66m1h-1495215945.ap-south-1.elb.amazonaws.com/api';
 
 const encode = encodeURIComponent;
 const responseBody = res => res.body;
